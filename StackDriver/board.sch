@@ -1491,23 +1491,17 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="+IN"/>
-<wire x1="12.7" y1="83.82" x2="2.54" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="83.82" x2="2.54" y2="76.2" width="0.1524" layer="91"/>
-<junction x="2.54" y="83.82"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="83.82" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="76.2" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="78.74" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="A" pin="-IN"/>
+<wire x1="12.7" y1="78.74" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
+<junction x="2.54" y="78.74"/>
 </segment>
 </net>
 <net name="SYG" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="-IN"/>
-<wire x1="12.7" y1="78.74" x2="-10.16" y2="78.74" width="0.1524" layer="91"/>
-<junction x="-10.16" y="78.74"/>
-<label x="-10.16" y="78.74" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC2" gate="A" pin="-IN"/>
 <wire x1="12.7" y1="38.1" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
@@ -1597,6 +1591,12 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="-53.34" y1="93.98" x2="-53.34" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-53.34" y="81.28"/>
 <label x="-58.42" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="A" pin="+IN"/>
+<wire x1="12.7" y1="83.82" x2="-5.08" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-5.08" y="83.82"/>
+<label x="-5.08" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">

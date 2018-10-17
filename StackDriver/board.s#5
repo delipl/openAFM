@@ -1465,6 +1465,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="180.34" y1="-83.82" x2="180.34" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="187.96" y="-83.82"/>
 <label x="187.96" y="-83.82" size="1.778" layer="95"/>
+<junction x="180.34" y="-83.82"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="5"/>
@@ -1841,6 +1842,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="33.02" y1="40.64" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 <junction x="40.64" y="40.64"/>
 <label x="40.64" y="40.64" size="1.778" layer="95"/>
+<junction x="33.02" y="40.64"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
@@ -1859,6 +1861,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="33.02" y1="0" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
 <junction x="40.64" y="0"/>
 <label x="40.64" y="0" size="1.778" layer="95"/>
+<junction x="33.02" y="0"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="3"/>
@@ -1877,6 +1880,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="33.02" y1="-40.64" x2="33.02" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="40.64" y="-40.64"/>
 <label x="40.64" y="-40.64" size="1.778" layer="95"/>
+<junction x="33.02" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="4"/>
@@ -1895,6 +1899,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="33.02" y1="-83.82" x2="33.02" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="40.64" y="-83.82"/>
 <label x="40.64" y="-83.82" size="1.778" layer="95"/>
+<junction x="33.02" y="-83.82"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="5"/>
@@ -1913,6 +1918,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="33.02" y1="81.28" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
 <junction x="40.64" y="81.28"/>
 <label x="40.64" y="81.28" size="1.778" layer="95"/>
+<junction x="33.02" y="81.28"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="1"/>
@@ -1931,6 +1937,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="104.14" y1="78.74" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
 <junction x="111.76" y="78.74"/>
 <label x="111.76" y="78.74" size="1.778" layer="95"/>
+<junction x="104.14" y="78.74"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
@@ -1949,6 +1956,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="104.14" y1="38.1" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <junction x="111.76" y="38.1"/>
 <label x="111.76" y="38.1" size="1.778" layer="95"/>
+<junction x="104.14" y="38.1"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="2"/>
@@ -1967,6 +1975,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="104.14" y1="-2.54" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
 <junction x="111.76" y="-2.54"/>
 <label x="111.76" y="-2.54" size="1.778" layer="95"/>
+<junction x="104.14" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="3"/>
@@ -1985,6 +1994,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="104.14" y1="-43.18" x2="104.14" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="111.76" y="-43.18"/>
 <label x="111.76" y="-43.18" size="1.778" layer="95"/>
+<junction x="104.14" y="-43.18"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="4"/>
@@ -2003,6 +2013,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="104.14" y1="-86.36" x2="104.14" y2="-71.12" width="0.1524" layer="91"/>
 <junction x="111.76" y="-86.36"/>
 <label x="111.76" y="-86.36" size="1.778" layer="95"/>
+<junction x="104.14" y="-86.36"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="5"/>
@@ -2021,6 +2032,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="180.34" y1="81.28" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
 <junction x="187.96" y="81.28"/>
 <label x="187.96" y="81.28" size="1.778" layer="95"/>
+<junction x="180.34" y="81.28"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="1"/>
@@ -2039,6 +2051,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="180.34" y1="40.64" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
 <junction x="187.96" y="40.64"/>
 <label x="187.96" y="40.64" size="1.778" layer="95"/>
+<junction x="180.34" y="40.64"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="2"/>
@@ -2057,6 +2070,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="180.34" y1="0" x2="180.34" y2="15.24" width="0.1524" layer="91"/>
 <junction x="187.96" y="0"/>
 <label x="187.96" y="0" size="1.778" layer="95"/>
+<junction x="180.34" y="0"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="3"/>
@@ -2075,6 +2089,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="180.34" y1="-40.64" x2="180.34" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="187.96" y="-40.64"/>
 <label x="187.96" y="-40.64" size="1.778" layer="95"/>
+<junction x="180.34" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="4"/>

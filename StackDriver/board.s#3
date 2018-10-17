@@ -1454,6 +1454,18 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <junction x="-55.88" y="83.82"/>
 <label x="-60.96" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC15" gate="A" pin="ON1"/>
+<junction x="167.64" y="-76.2"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="A" pin="ON1"/>
+<junction x="20.32" y="-76.2"/>
+</segment>
+<segment>
+<pinref part="IC10" gate="A" pin="ON1"/>
+<junction x="91.44" y="-78.74"/>
+</segment>
 </net>
 <net name="15" class="0">
 <segment>
@@ -2168,18 +2180,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <segment>
 <pinref part="IC14" gate="A" pin="ON1"/>
 <junction x="167.64" y="-33.02"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="IC15" gate="A" pin="ON1"/>
-<junction x="167.64" y="-76.2"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="IC10" gate="A" pin="ON1"/>
-<junction x="91.44" y="-78.74"/>
 </segment>
 </net>
 </nets>

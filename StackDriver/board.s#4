@@ -1465,7 +1465,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="180.34" y1="-83.82" x2="180.34" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="187.96" y="-83.82"/>
 <label x="187.96" y="-83.82" size="1.778" layer="95"/>
-<junction x="180.34" y="-83.82"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="5"/>
@@ -2096,6 +2095,91 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="-73.66" y1="20.32" x2="-73.66" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-73.66" y="12.7"/>
 <label x="-73.66" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="ON1"/>
+<junction x="20.32" y="88.9"/>
+<label x="20.32" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="ON1"/>
+<junction x="20.32" y="48.26"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="IC7" gate="A" pin="ON1"/>
+<junction x="91.44" y="45.72"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="IC6" gate="A" pin="ON1"/>
+<junction x="91.44" y="86.36"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="IC11" gate="A" pin="ON1"/>
+<junction x="167.64" y="88.9"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="IC12" gate="A" pin="ON1"/>
+<junction x="167.64" y="48.26"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="IC3" gate="A" pin="ON1"/>
+<junction x="20.32" y="7.62"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="IC13" gate="A" pin="ON1"/>
+<junction x="167.64" y="7.62"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="IC8" gate="A" pin="ON1"/>
+<junction x="91.44" y="5.08"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="IC4" gate="A" pin="ON1"/>
+<junction x="20.32" y="-33.02"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="IC9" gate="A" pin="ON1"/>
+<junction x="91.44" y="-35.56"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="IC14" gate="A" pin="ON1"/>
+<junction x="167.64" y="-33.02"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="IC15" gate="A" pin="ON1"/>
+<junction x="167.64" y="-76.2"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="IC10" gate="A" pin="ON1"/>
+<junction x="91.44" y="-78.74"/>
 </segment>
 </net>
 </nets>
